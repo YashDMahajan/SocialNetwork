@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    min-height: 100vh;
+    /* background: #F8F8F8; */
+    background-color: #1fa2f1;
+    font-family: 'Roboto', sans-serif;
+}
+section.chat__section {
+    margin: 20px 346px;
+    width: 800px;
+    max-width: 90%;
+    background: #fff;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+.brand {
+    padding: 20px;
+    background: #f1f1f1;
+    /* background-color: #1fa2f1; */
+    display: flex;
+    align-items: center;
+}
+.brand h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #444;
+    margin-left: 10px;
+}
+.message__area{
+    height: 500px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 40px;
+}
+textarea {
+    width: 100%;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    outline: none;
+    background: #FBFBFB;
+    /* background-color: #1fa2f1; */
+    /* color: white; */
+}
+
+.message {
+    padding: 20px; 
+    border-radius: 4px; 
+    margin-bottom: 40px;
+    max-width: 300px;
+    position: relative;
+}
+.incoming {
+    background: #8F8BE8;
+    color: #fff;  
+}
+.outgoing {
+    background: #e9eafd;
+    color: #787986;
+    margin-left: auto;
+}
+.message h4 {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    color: #333;
+    font-size: 14px;
+}
+
+img{
+    border-radius: 50px;
+}
+
+/* header */
+.nav-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.appname{
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    font-family: 'Tilt Warp', cursive;
+}
+
+.img{
+    margin-left: 10px;
+}
+
+.logo{
+    width: 66px;
+    border-radius: 100px;
+}
+
+.nav-2{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.icon{
+    padding: 34px 24px;
+    cursor: pointer;
+}
+
+.fa-solid{
+    font-size: 30px;
+}
+
+.nav-2 a{
+    color: inherit;
+    padding: 15px;
+}
+
+.nav-2 a:hover {
+    background-color: rgb(230, 236, 240);
+    color: #1fa2f1;
+    border-radius: 50%;
+}
+
+/* footer */
+
+.yash-p{
+    text-align: center;
+    margin-top: 19px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+
+    <!-- Bootstrap links -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="/index.css">
+    <!-- <link rel="stylesheet" href="/css/style.css"> -->
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+
+    <!-- favicon -->
+    <link rel="icon" href="DALL·E 2023-03-05 22.00.54 - make a simple logo for  SN.png">
+</head>
+
+<body>
+    <div class="nav-1">
+        <h1 class="appname">SocialNetwork</h1>
+        <div class="img"><img class="logo" src="DALL·E 2023-03-05 22.00.54 - make a simple logo for  SN.png" alt="img"></div>
+    </div>
+
+    <div class="nav-2">
+        <p class="icon"><a href="/"><i class="fa-solid fa-house"></i></a></p>
+        <p class="icon"><a href="/chat"><i class="fa-solid fa-message"></i></a></p>
+        <p class="icon"><a href="/post"><i class="fa-sharp fa-solid fa-circle-plus"></i></a></p>
+        <p class="icon"><a href="/profile"><i class="fa-solid fa-user"></i></a></p>
+        <p class="icon"><a href="/login"><i class="fa-solid fa-right-to-bracket"></i></a></p>
+        <p class="icon"><a href="/logout"><i class="fa-solid fa-right-from-bracket"></i></a></p>
+    </div>
+    <section class="chat__section">
+        <div class="brand">
+            <img height="40" src="/DALL·E 2023-03-05 22.00.54 - make a simple logo for  SN.png" alt="">
+            <h1>Chat</h1>
+        </div>
+        <div class="message__area"></div>
+        <div>
+            <textarea id="textarea" cols="30" rows="1" placeholder="Write a message..."></textarea>
+        </div>
+    </section>
+    <p class="yash-p">© Yash Mahajan.</p>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+</body>
+
+</html>

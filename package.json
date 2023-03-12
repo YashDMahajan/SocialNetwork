@@ -1,0 +1,25 @@
+{
+  "name": "socialnetwork",
+  "version": "1.0.0",
+  "description": "This is social media app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yash Mahajan",
+  "license": "ISC",
+  "dependencies": {
+    "alert": "^5.1.4",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mongoose": "^6.10.0",
+    "multer": "^1.4.5-lts.1",
+    "passport": "^0.6.0",
+    "passport-local-mongoose": "^7.1.2",
+    "popups": "^1.1.3",
+    "socket.io": "^4.6.1"
+  }
+}
